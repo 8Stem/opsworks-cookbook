@@ -1,3 +1,3 @@
-package 'imagemagick' do
+package 'ImageMagick' do
   action :install
 end
