@@ -4,6 +4,7 @@ bash "install_ffmpeg" do
     sudo apt-get update
     sudo apt-get install curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev nodejs
     sudo apt-get install libtag1-dev
+    sudo ppa-purge ppa:mc3man/trusty-media
     sudo add-apt-repository ppa:mc3man/trusty-media
     sudo apt-get update
     sudo apt-get dist-upgrade
