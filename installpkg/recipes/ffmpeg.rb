@@ -77,11 +77,6 @@ bash "install_ffmpeg" do
     make 
     sudo make install
     sudo ldconfig
-
-    # test that they were built and run
-    cd ~
-    ffmpeg
-    keyfinder-cli
   EOH
 
   not_if do
